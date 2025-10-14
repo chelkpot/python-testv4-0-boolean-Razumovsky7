@@ -2,7 +2,10 @@
 
 def solve():
 # Ниже пишите решение задачи
-    
+    a, b, c = map(int, input().split())
+    D = a + b > c and a + c > b and b + c > a
+    print(D)
+
     
 
 # Код ниже не трогать! он нужен для тестов
